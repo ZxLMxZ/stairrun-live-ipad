@@ -1,0 +1,11 @@
+STAIRRUN LIVE iPad – Installation ohne PC
+
+1) Diese ZIP-Datei in iPad Dateien antippen, um sie zu entpacken.
+2) GitHub im Safari-Browser öffnen und kostenloses Konto anlegen / anmelden. Neues Repository erstellen, z.B. stairrun-live-ipad (Public ist möglich; KEINE Passwörter in Dateien schreiben).
+3) Im Repository: Add file > Upload files; Dateien index.html, game.js, server.mjs, package.json, icon.svg hochladen; Änderungen speichern. Bei iPad Safari ggf. Desktop-Website anfordern.
+4) render.com anmelden, GitHub verbinden; New > Web Service > Repository wählen. Language Node, Root directory leer, Build Command npm install, Start Command npm start, Instance Type Free. NICHT Static Site oder kostenpflichtigen Starter wählen.
+5) Unter Environment die Variable ADMIN_PIN mit einer eigenen geheimen PIN (mindestens 8 Zeichen) anlegen. Nicht in GitHub-Dateien speichern.
+6) Deploy; bei Erfolg die https://...onrender.com Adresse im Safari öffnen, in Einstellungen TikTok-Namen und PIN eingeben. Erst wenn das TikTok-Konto wirklich LIVE ist, auf TikTok LIVE verbinden tippen.
+7) Für iPad Bildschirm-LIVE in TikTok die Bildschirmübertragung verwenden, falls das berechtigte TikTok-Konto diese Option hat.
+
+Einschränkungen: Dies ist eine ungetestete inoffizielle TikTok LIVE Anbindung. Freier Render-Web-Service schläft nach 15 Minuten ohne HTTP-Traffic und kann beim Neustart Spielstand verlieren. Nicht zuverlässig für wichtige oder lange Streams. TikTok LIVE/Geschenke nur bei berechtigtem Konto ab 18.
